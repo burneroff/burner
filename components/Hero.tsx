@@ -31,7 +31,7 @@ export function Hero() {
         <TextHoverEffect text="NIKITA KARABAN" />
         <ContainerTextFlip
           words={[
-            "Full Stack Developer",
+            "Fullstack Developer",
             "Front-end Developer",
             "Software Engineer",
           ]}
