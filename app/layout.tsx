@@ -5,8 +5,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NK | Fullstack",
-  description: "Software engineer, Frontend developer and chill guy",
+  title: "NK | Fullstack Developer | Portfolio",
+  description: "Full-Stack Developer with 3+ years of experience in JavaScript/TypeScript. Specializing in React, Node.js, and scalable system architecture. Portfolio and case studies.",
+  keywords: [
+    "Fullstack Developer",
+    "Frontend Developer",
+    "Softwate Engineer",
+    "React Developer",
+    "Node.js Developer",
+  ].join(", "),
 };
 
 export default function RootLayout({
