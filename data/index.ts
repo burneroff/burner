@@ -11,7 +11,7 @@ import html from "@/public/stack/html5.svg";
 import tailwind from "@/public/stack/tailwind.svg";
 import react from "@/public/stack/reactjs.svg";
 import ts from "@/public/stack/ts.svg";
-import burner from "@/public/burner4.png";
+import burner from "@/public/burner.png";
 import jobOffer from "@/public/joboffer.png";
 
 export const people = [
