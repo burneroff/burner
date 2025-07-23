@@ -14,7 +14,7 @@ export function Contact() {
   return (
     <div id="contact" >
     <DraggableCardContainer className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
-      <p className="absolute mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800">
+      <p className="absolute mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-200 md:text-4xl ">
        Open to work &#128522;
       </p>
       <a href="mailto:burneroff@outlook.com" className="mt-16">

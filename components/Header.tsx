@@ -59,7 +59,7 @@ export function Header({
         transition={{
           duration: 0.2,
         }}
-        className="flex !bg-transparent max-w-fit md:min-w-[70vw] lg: w-screen fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg items-center justify-center space-x-5" // change  pr-2 pl-8 py-2 to px-10 py-5 // remove dark:border-white/[0.2] dark:bg-black bg-white border-transparent // change rounded-full to rounded-lg
+        className="flex !bg-transparent max-w-fit md:min-w-[70vw] lg: w-screen fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg items-center justify-center space-x-5"
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
           backgroundColor: "rgba(17, 25, 40, 0.75)",

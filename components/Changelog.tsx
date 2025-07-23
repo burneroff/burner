@@ -13,7 +13,7 @@ export function Changelog() {
       title: "Fullstack developer",
       content: (
         <div>
-          <p className="mb-5 text-2xl md:text-3xl text-white font-bold dark:text-neutral-200">
+          <p className="mb-5 text-2xl md:text-3xl text-white font-bold">
             Administration of Water Transport |{" "}
             <span className="font-normal">August 2023 — Present</span>
           </p>
@@ -125,13 +125,13 @@ export function Changelog() {
             Self-employed | <span className="font-normal">November 2021</span>
           </p>
           <div className="mb-5 flex gap-5 flex-col">
-            <div className="flex items-center gap-2 text-md text-neutral-200  md:text-md dark:text-neutral-300">
+            <div className="flex items-center gap-2 text-md text-neutral-200  md:text-md ">
               &ndash; Developed automation tools for the crypto space:
             </div>
-            <div className="ml-7 flex items-center gap-2 text-md text-neutral-200  md:text-md dark:text-neutral-300">
+            <div className="ml-7 flex items-center gap-2 text-md text-neutral-200  md:text-md ">
               Form parsing and autofill (Puppeteer).
             </div>
-            <div className="ml-7 flex items-center gap-2 text-md text-neutral-200  md:text-md dark:text-neutral-300">
+            <div className="ml-7 flex items-center gap-2 text-md text-neutral-200  md:text-md ">
               Solana Blockchain integration (transactions via web3.js).
             </div>
           </div>
@@ -154,7 +154,7 @@ export function Changelog() {
             BSUIR |{" "}
             <span className="font-normal">September 2019</span>
           </p>
-          <div className="flex items-center gap-2 text-md text-neutral-200 md:text-md dark:text-neutral-300">
+          <div className="flex items-center gap-2 text-md text-neutral-200 md:text-md ">
             &ndash; I&apos;ve learned algorithms, data structures, object-oriented
             programming, database systems (SQL\NoSQL), and web
             development fundamentals. I&apos;ve also gained proficiency in Python and
