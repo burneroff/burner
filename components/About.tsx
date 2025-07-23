@@ -1,10 +1,7 @@
 import { cn } from "@/lib/utils";
 import React, { useCallback, useState } from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
-import {
-  IconCopy,
-  IconTableColumn,
-} from "@tabler/icons-react";
+import { IconCopy, IconTableColumn } from "@tabler/icons-react";
 import { AnimatePresence, motion } from "motion/react";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 import { Meteors } from "./ui/Meteors";
@@ -22,7 +19,6 @@ export function About() {
             key={i}
             header={item.header}
             className={cn("[&>p:text-lg]", item.className)}
-            icon={item.icon}
           />
         ))}
       </BentoGrid>
@@ -140,7 +136,7 @@ const Card = ({
           {icon}
         </div>
         <h2
-            className="text-center text-3xl 
+          className="text-center text-3xl 
     opacity-100 md:opacity-0 
     relative z-10 text-white mt-4 font-bold 
     md:group-hover/canvas-card:opacity-100 
@@ -150,15 +146,15 @@ const Card = ({
         >
           {title}
         </h2>
-   <p
-  className="text-sm 
+        <p
+          className="text-sm 
     opacity-100 md:opacity-0 
     relative z-10 mt-4 text-center text-white 
     md:group-hover/canvas-card:opacity-100 
     md:group-hover/canvas-card:text-white 
     md:group-hover/canvas-card:-translate-y-2 
     transition duration-200"
->
+        >
           {des}
         </p>
       </div>
@@ -179,7 +175,7 @@ const AceternityIcon = ({ text }: { text: string }) => {
   );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({ className }: {className?: string}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +184,6 @@ export const Icon = ({ className, ...rest }: any) => {
       strokeWidth="1.5"
       stroke="currentColor"
       className={className}
-      {...rest}
     >
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
     </svg>

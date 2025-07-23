@@ -1,8 +1,6 @@
 import React from "react";
 import {
   IconNavigationDown,
-  IconNavigationUp,
-  IconSignLeft,
 } from "@tabler/icons-react";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";

@@ -146,7 +146,7 @@ export function Changelog() {
         </div>
       ),
     },
-    {
+ {
       title: "Student",
       content: (
         <div>
@@ -154,10 +154,10 @@ export function Changelog() {
             BSUIR |{" "}
             <span className="font-normal">September 2019</span>
           </p>
-          <div className="flex items-center gap-2 text-md text-neutral-200  md:text-md dark:text-neutral-300">
-            &ndash; I've learned algorithms, data structures, object-oriented
+          <div className="flex items-center gap-2 text-md text-neutral-200 md:text-md dark:text-neutral-300">
+            &ndash; I&apos;ve learned algorithms, data structures, object-oriented
             programming, database systems (SQL\NoSQL), and web
-            development fundamentals. I've also gained proficiency in Python and
+            development fundamentals. I&apos;ve also gained proficiency in Python and
             Java while understanding core software engineering principles.
           </div>
         </div>
